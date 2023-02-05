@@ -1,3 +1,3 @@
 function FindProxyForURL(url, host) {
-  return "HTTP 192.168.5.16:3128; HTTPS 192.168.5.16:8443";
+  return "HTTP proxy.djrtechconsulting.com:3128; HTTPS proxy.djrtechconsulting.com:8443";
 }
